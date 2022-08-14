@@ -1,0 +1,101 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #aabdb3;
+}
+
+.Menu{
+    list-style: none;
+    padding: 0;
+    background: #221879;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.Menu li a{
+text-decoration: none;
+color: beige;
+padding: 20px;
+display: block;
+
+}
+
+.Menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.Menu li a:hover{
+    background: #ef8354;
+}
+.Menu:hover{
+    background: #8F4700;
+}
+
+.img{
+text-align: center;
+padding: 100px; 
+
+}
+
+
+
+.footer {
+    position: absolute;
+    background-color: #8F4700;
+    color: #ccd822;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    line-height: 10px;
+    font-size: 12px;
+    bottom: 0px;
+}
+
+@media screen and (max-width:600px) {
+   .Menu {
+    list-style: none;
+    background: #147a91;
+    width: 30%;
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    }
+
+    .Menu li a{
+        color: rgb(75, 18, 23);
+        padding: 10px;
+        display: block;
+        
+        }
+
+        .Menu li a:hover{
+            background: #1e92c0;
+        }
+
+        .Menu:hover{
+            background: #ae9eb9;
+        }
+
+        .img{
+            text-align: center;
+            display: flex; 
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            }
+
+            .footer {
+                position: absolute;
+                background-color: #9899aa;
+                color: #0c3753;
+                width: 100%;
+                text-align: center;
+                height: 30px;
+                line-height: 10px;
+                font-size: 12px;
+                bottom: 0px;
+            }
+}
